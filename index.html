@@ -1,46 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
     <title>Landing Page</title>
-</head>
-<body>
-    <!-- Header with Nav Bar -->
+  </head>
+  <body>
+    <!-- header with nav bar -->
     <header>
-        <nav>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </nav>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about-us">About Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
 
-    <!-- Main section of webpage -->
+    <!-- main section of the webpage -->
     <main>
-        <!-- Section containing title and image -->
-        <section>
-            <h1></h1>
+      <!-- section containing title and image -->
+      <section id="home">
+        <h1>Home</h1>
 
-            <!-- image container -->
-            <div>
-                <figure>
-                    <img src="" alt=""/>
-                    <figcaption></figcaption>
-                </figure>
-            </div>
-        </section>
+        <!-- image container -->
+        <div>
+            <figure>
+                <img src="./assets/images/landing.jpg" alt="sunrise over mountain" class="sunrise_img"/>
+                <figcaption>A sunrise over a mountain</figcaption>
+            </figure>
+        </div>
+      </section>
 
-        <!-- section containing form -->
-        <section>
-            <h2></h2>
+      <!-- about us section -->
+      <section id="about-us">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+          minima eum quod quisquam et voluptates, libero corporis ut. Pariatur
+          laboriosam officia consectetur blanditiis autem amet unde. Obcaecati
+          necessitatibus blanditiis nulla!
+        </p>
+      </section>
 
-            <form action=""></form>
-        </section>
+      <!-- section containing form -->
+      <section id="contact">
+        <h2>Contact Us</h2>
+
+        <!-- contact form with name and email -->
+        <form>
+          <div>
+            <input type="text" placeholder="Enter full name" />
+          </div>
+          <div>
+            <input type="text" placeholder="Enter email address" />
+          </div>
+          <div>
+            <button>Send</button>
+          </div>
+        </form>
+      </section>
     </main>
+
     <!-- webpage footer -->
     <footer>
-
+        &copy Company Name
     </footer>
-</body>
+  </body>
 </html>
