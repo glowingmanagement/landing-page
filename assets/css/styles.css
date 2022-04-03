@@ -6,21 +6,7 @@ body {
     margin:0;
 }
 
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-img {
-    width: 100%;
-}
-
-figure {
-    margin: 0;
-}
+/* Nav bar */
 
 .header {
     width: 100%;
@@ -30,6 +16,7 @@ figure {
 
 .navbar {
     padding: 20px;
+    text-align: right;
 }
 
 .navlink {
@@ -39,10 +26,76 @@ figure {
     font-size: 20px;
 }
 
-.about-us {
-    background-color: #D2E4C4;
+/* Sections */
+
+.light-section {
+   background-color: #f1d5c0;
+   padding: 10px;
+   text-align: center;
+   
 }
 
-.contact {
-    background-color: #E7E08B;
+.dark-section {
+    background-color: #cc7447;
+    padding: 10px;
+    text-align: center;
 }
+
+/* Home section */
+
+.title {
+    color: #282A26;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.sunrise-figure {
+    margin: 0;
+}
+
+.sunrise-caption {
+    margin: 0;
+}
+
+.sunrise-img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+/* About Us */
+
+
+
+.about-us-heading {
+    color: #fff;
+}
+
+.about-us-content {
+    color: #fff;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    font-size: 15px;
+}
+
+/* Contact Us */
+
+.contact-form {
+    justify-items: center;
+    margin: auto;
+    width: 300px;
+}
+
+.contact-input {
+    height: 20px;
+    width: 300px;
+    margin: 5px;
+}
+
+.send-button {
+    margin: 5px;
+}
+
+/* Footer */
+
